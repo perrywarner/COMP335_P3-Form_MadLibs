@@ -1,4 +1,35 @@
-<h1>MadLibs: Input Your Word Choices</h1>
+<form method = "post" action = "madlibsHandler">
+    <lable>Article of clothing: </lable>
+    <br>
+    <input type = "text" name = "clothing" placeholder = "Clothing">
+    <br>
+    <lable>Female Person You Know #1: </lable>
+    <br>
+    <input type = "text" name = "fem1" placeholder = "Clothing">
+    <br>
+    <lable>Female Person You Know #2: </lable>
+    <br>
+    <input type = "text" name = "fem2" placeholder = "Clothing">
+    <br>
+    <lable>Male Person You Know #1: </lable>
+    <br>
+    <input type = "text" name = "male1" placeholder = "Clothing">
+    <br>
+    <lable>Male Person You Know #2: </lable>
+    <br>
+    <input type = "text" name = "male2" placeholder = "Clothing">
+    <br>
+    <lable>Plural Noun: </lable>
+    <br>
+    <input type = "text" name = "pnoun" placeholder = "Clothing">
+    <br>
+    <input type = "submit" value = "Submit">
+</form>
+
+
+{{!-- ---------- scrap code --}}
+
+{{!-- <h1>MadLibs: Input Your Word Choices</h1>
 <div>
     Article of Clothing:
     <input type="text">
@@ -15,7 +46,15 @@
     <br>
     <br>
     <input type="submit" value="See the result!">
-</div>
+</div> --}}
+
+{{!-- <form method = "post" action = "formHandler">
+    <lable>Enter a title </lable><br>
+    <input type = "text" name = "title" placeholder = "Enter a title"><br>
+    <label>Enter a Paragraph</label> <br>
+    <textarea name = "paragraph" id = "paragraph" col = "80" rows = "10"></textarea><br>
+    <input type = "submit" value = "Post something">
+</form>
 
 {{#if pnoun}}
 
@@ -30,4 +69,4 @@
   {{#if author}}
     <h1>{{firstName}} {{lastName}}</h1>
   {{/if}}
-</div>
+</div> --}}
