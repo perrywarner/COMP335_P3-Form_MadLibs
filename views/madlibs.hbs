@@ -1,0 +1,33 @@
+<h1>MadLibs: Input Your Word Choices</h1>
+<div>
+    Article of Clothing:
+    <input type="text">
+    <br> Female Person You Know #1:
+    <input type="text">
+    <br> Female Person You Know #1:
+    <input type="text">
+    <br> Male Person You Know #1:
+    <input type="text">
+    <br> Male Person You Know #1:
+    <input type="text">
+    <br> Plural Noun:
+    <input type="text" name="pnoun">
+    <br>
+    <br>
+    <input type="submit" value="See the result!">
+</div>
+
+{{#if pnoun}}
+
+{{/if}}
+
+<h1>{{title}}</h1>
+<p>Today is {{dates}}</p>
+<p>You visited this page <strong>{{views}}</strong> times </p>
+
+<!-- if views == 1 -->
+<div class="entry">
+  {{#if author}}
+    <h1>{{firstName}} {{lastName}}</h1>
+  {{/if}}
+</div>
